@@ -46,6 +46,11 @@ public class UserService {
         }
     }
 
+    // Add a method to get a user by id
+    public User getUserById(Long userId) {
+        return userRepo.findById(userId).orElseThrow(() -> new IllegalArgumentException("User not found"));
+    }
+
 
 
 }

@@ -23,7 +23,7 @@ type Query{
 
 type Mutation{
     createUser(name:String,email:String,phone:String,password:String):User
-    deleteUserById(userId:ID!):Boolean
-    createOrder(orderDetail:String,price:Int,userId:ID!):CustomerOrder
-    deleteOrderById(orderId:ID!):Boolean
+    deleteUser(userId:ID!):Boolean
+    createOrder(userId:ID!,orderDetail:String,price:Int):CustomerOrder
+    deleteOrder(orderId:ID!):Boolean
 }
