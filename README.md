@@ -17,3 +17,9 @@ GraphQL is a query language for APIs that allows clients to request specific dat
 
 ## Goal
 We'll define a User class and a CustomerOrder class, establishing a one-to-many relationship where each user can create multiple orders. User and order details will be stored in separate database tables, ensuring organized data management and enhancing interaction efficiency with clients through our GraphQL API. We'll define schemas, execute queries, and mutations to facilitate seamless data retrieval and manipulation operations within this relational framework.
+
+## Testing 
+http://localhost:8080/graphiql?path=/graphql
+
+
+![image](https://github.com/DarioCM/graphQL-api-example/assets/32173535/ddd7151b-2541-43ea-a583-6a4da75da220)
